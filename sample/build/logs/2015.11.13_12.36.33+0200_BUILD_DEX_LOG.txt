@@ -1,0 +1,10 @@
+
+12:36:33.843 INFO ParseArchs(): Active architecture: i386
+
+12:36:33.843 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildDexAlgorithm
+
+12:36:33.843 INFO dexApplication(): dexApplication: xrtApplication
+
+12:36:33.843 INFO start(): Running command line: "[/Applications/Intel/INDE/multi_os_engine/tools/dx --dex --output /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/dex/xrtApplication.dex --core-library /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/retro/output]"
+
+12:36:34.696 INFO createBuildDirectories(): Build directory: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build

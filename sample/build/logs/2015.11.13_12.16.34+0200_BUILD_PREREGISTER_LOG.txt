@@ -1,0 +1,14 @@
+
+12:16:34.586 INFO ParseArchs(): Active architecture: i386
+
+12:16:34.586 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildPreregisterAlgorithm
+
+12:16:34.586 INFO start(): Location of preregister file: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode/sample/preregister.txt
+
+12:16:34.587 INFO start(): Checking /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/proguard/proguarded.jar
+
+12:16:34.591 INFO start(): Found annotation for: com/tudorluca/sample/Main
+
+12:16:34.591 INFO start(): Found annotation for: com/tudorluca/sample/ui/AppViewController
+
+12:16:34.600 INFO createBuildDirectories(): Build directory: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build

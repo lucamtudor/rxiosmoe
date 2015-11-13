@@ -1,0 +1,192 @@
+
+12:36:29.524 INFO ParseArchs(): Active architecture: i386
+
+12:36:29.524 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildAppAlgorithm
+
+12:36:29.525 INFO start(): Running command line: "[xcodebuild ARCHS=i386  -configuration Debug -sdk iphonesimulator9.1 -target sample -project /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode/sample.xcodeproj]"
+
+12:36:29.828 INFO run(): module "runXCodeBuild": out_stream: "Build settings from command line:"
+
+12:36:29.829 INFO run(): module "runXCodeBuild": out_stream: "    ARCHS = i386 "
+
+12:36:29.829 INFO run(): module "runXCodeBuild": out_stream: "    SDKROOT = iphonesimulator9.1"
+
+12:36:29.829 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:29.968 INFO run(): module "runXCodeBuild": out_stream: "=== BUILD TARGET sample OF PROJECT sample WITH CONFIGURATION Debug ==="
+
+12:36:29.968 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:29.968 INFO run(): module "runXCodeBuild": out_stream: "Check dependencies"
+
+12:36:30.040 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:30.044 INFO run(): module "runXCodeBuild": out_stream: "PhaseScriptExecution Compile\ Java\ Sources /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+12:36:30.044 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:30.044 INFO run(): module "runXCodeBuild": out_stream: "    /bin/sh -c /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+12:36:30.146 INFO run(): module "runXCodeBuild": out_stream: "java version "1.8.0_40""
+
+12:36:30.146 INFO run(): module "runXCodeBuild": out_stream: "Java(TM) SE Runtime Environment (build 1.8.0_40-b27)"
+
+12:36:30.146 INFO run(): module "runXCodeBuild": out_stream: "Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)"
+
+12:36:31.140 INFO run(): module "runXCodeBuild": out_stream: ":rx:compileJava UP-TO-DATE"
+
+12:36:31.141 INFO run(): module "runXCodeBuild": out_stream: ":rx:processResources UP-TO-DATE"
+
+12:36:31.141 INFO run(): module "runXCodeBuild": out_stream: ":rx:classes UP-TO-DATE"
+
+12:36:31.144 INFO run(): module "runXCodeBuild": out_stream: ":rx:jar UP-TO-DATE"
+
+12:36:31.578 INFO run(): module "runXCodeBuild": out_stream: ":sample:compileJava"
+
+12:36:31.588 INFO run(): module "runXCodeBuild": out_stream: ":sample:proguard"
+
+12:36:31.588 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:31.588 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/logs/2015.11.13_12.36.31+0200_BUILD_PROGUARD_LOG.txt"."
+
+12:36:33.338 INFO run(): module "runXCodeBuild": out_stream: ":sample:buildRetro"
+
+12:36:33.338 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:33.338 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/logs/2015.11.13_12.36.33+0200_BUILD_RETRO_LOG.txt"."
+
+12:36:33.843 INFO run(): module "runXCodeBuild": out_stream: ":sample:buildDex"
+
+12:36:33.843 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:33.843 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/logs/2015.11.13_12.36.33+0200_BUILD_DEX_LOG.txt"."
+
+12:36:34.697 INFO run(): module "runXCodeBuild": out_stream: ":sample:buildArtOat"
+
+12:36:34.697 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:34.697 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/logs/2015.11.13_12.36.34+0200_BUILD_ART_OAT_LOG.txt"."
+
+12:36:43.682 INFO run(): module "runXCodeBuild": out_stream: ":sample:buildPreregister"
+
+12:36:43.682 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:43.682 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/logs/2015.11.13_12.36.43+0200_BUILD_PREREGISTER_LOG.txt"."
+
+12:36:43.692 INFO run(): module "runXCodeBuild": out_stream: ":sample:buildPrecopy"
+
+12:36:43.692 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:43.692 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/logs/2015.11.13_12.36.43+0200_BUILD_PRECOPY_LOG.txt"."
+
+12:36:43.693 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:43.693 INFO run(): module "runXCodeBuild": out_stream: "BUILD SUCCESSFUL"
+
+12:36:43.693 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:43.693 INFO run(): module "runXCodeBuild": out_stream: "Total time: 13.471 secs"
+
+12:36:45.605 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "CpResource sample/preregister.txt /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/preregister.txt"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode/sample/preregister.txt /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "CpResource sample/precopy.txt /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/precopy.txt"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode/sample/precopy.txt /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "CompileStoryboard /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources/MainUI.storyboard"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/.."
+
+12:36:45.608 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module sample --output-partial-info-plist /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/MainUI-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --output-format human-readable-text --compilation-directory /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources/MainUI.storyboard"
+
+12:36:46.065 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:46.066 INFO run(): module "runXCodeBuild": out_stream: "ProcessInfoPlistFile /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/Info.plist sample/Info.plist"
+
+12:36:46.066 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:46.066 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:46.066 INFO run(): module "runXCodeBuild": out_stream: "    builtin-infoPlistUtility /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode/sample/Info.plist -genpkginfo /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/LaunchScreen-PartialInfo.plist -additionalcontentfile /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/MainUI-SBPartialInfo.plist -o /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/Info.plist"
+
+12:36:46.072 INFO run(): module "runXCodeBuild": out_stream: "warning: invalid character ' ' in Bundle Identifier at column 5. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters."
+
+12:36:46.072 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:46.073 INFO run(): module "runXCodeBuild": out_stream: "LinkStoryboards"
+
+12:36:46.073 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:46.073 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:46.073 INFO run(): module "runXCodeBuild": out_stream: "    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/.."
+
+12:36:46.073 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module sample --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --output-format human-readable-text --link /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/MainUI.storyboardc"
+
+12:36:46.084 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:46.086 INFO run(): module "runXCodeBuild": out_stream: "Ld /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/sample normal i386"
+
+12:36:46.086 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:46.086 INFO run(): module "runXCodeBuild": out_stream: "    export IPHONEOS_DEPLOYMENT_TARGET=8.0"
+
+12:36:46.086 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:46.086 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk -L/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator -F/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator -F/Applications/Intel/INDE/multi_os_engine/sdk/iphonesimulator -filelist /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/Objects-normal/i386/sample.LinkFileList -Xlinker -rpath -Xlinker /Applications/Intel/INDE/multi_os_engine/sdk/iphonesimulator -Xlinker -rpath -Xlinker @executable_path/Frameworks -mios-simulator-version-min=8.0 -Xlinker -objc_abi_version -Xlinker 2 -sectcreate __OATDATA __oatdata /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode/../build/art/i386/application.oat -sectcreate __ARTDATA __artdata /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode/../build/art/i386/image.art -segprot __OATDATA rwx rx -segprot __ARTDATA rwx rw -pagezero_size 1000 -lstdc++ -fobjc-arc -fobjc-link-runtime -framework MOE -Xlinker -dependency_info -Xlinker /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/Objects-normal/i386/sample_dependency_info.dat -o /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/sample"
+
+12:36:46.302 INFO run(): module "runXCodeBuild": out_stream: "ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _main from /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/Objects-normal/i386/main.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie"
+
+12:36:46.302 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:46.304 INFO run(): module "runXCodeBuild": out_stream: "GenerateDSYMFile /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app.dSYM /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/sample"
+
+12:36:46.304 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:46.304 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:46.304 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app/sample -o /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app.dSYM"
+
+12:36:46.389 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:46.392 INFO run(): module "runXCodeBuild": out_stream: "PhaseScriptExecution Custom\ Copy\ Script /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+12:36:46.392 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:46.392 INFO run(): module "runXCodeBuild": out_stream: "    /bin/sh -c /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/sample.build/Debug-iphonesimulator/sample.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+12:36:46.402 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:46.404 INFO run(): module "runXCodeBuild": out_stream: "Touch /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app"
+
+12:36:46.404 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/xcode"
+
+12:36:46.404 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+12:36:46.404 INFO run(): module "runXCodeBuild": out_stream: "    /usr/bin/touch -c /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/xcode/Debug-iphonesimulator/sample.app"
+
+12:36:46.409 INFO run(): module "runXCodeBuild": out_stream: ""
+
+12:36:46.411 INFO run(): module "runXCodeBuild": out_stream: "** BUILD SUCCEEDED **"
+
+12:36:46.411 INFO run(): module "runXCodeBuild": out_stream: ""

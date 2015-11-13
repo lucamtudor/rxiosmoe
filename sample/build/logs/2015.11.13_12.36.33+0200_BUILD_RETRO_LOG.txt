@@ -1,0 +1,44 @@
+
+12:36:33.338 INFO ParseArchs(): Active architecture: i386
+
+12:36:33.338 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildRetroAlgorithm
+
+12:36:33.356 INFO start(): Running command line: "[java -Dretrolambda.inputDir=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/retro/input -Dretrolambda.classpath=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/retro/input:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar:/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/rx/build/libs/rx.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.15/f0ab8b7c8010cad33b8debda5d09d233571dc486/rxjava-1.0.15.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.0-beta-1038/99d226f809024f8a092a08fefaabe3a1cda8612a/kotlin-stdlib-1.0.0-beta-1038.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.0-beta-1038/d58a601675d08c8a5874c2cc646cfa06be648c37/kotlin-runtime-1.0.0-beta-1038.jar:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/io.reactivex/rxkotlin/0.24.100/b4256b8d748e0a4d429cc5a4528c5ec9ffca50c8/rxkotlin-0.24.100.jar -Dretrolambda.outputDir=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/retro/output -Dretrolambda.natjSupport=true -Dretrolambda.defaultMethods=true -jar /Applications/Intel/INDE/multi_os_engine/tools/retrolambda.jar]"
+
+12:36:33.466 INFO run(): module "run retrolambda": out_stream: "Retrolambda 2.0.2-SNAPSHOT"
+
+12:36:33.471 INFO run(): module "run retrolambda": out_stream: "Bytecode version: 51 (Java 7)"
+
+12:36:33.471 INFO run(): module "run retrolambda": out_stream: "Default methods:  true"
+
+12:36:33.471 INFO run(): module "run retrolambda": out_stream: "NatJ support:     true"
+
+12:36:33.471 INFO run(): module "run retrolambda": out_stream: "Input directory:  /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/retro/input"
+
+12:36:33.471 INFO run(): module "run retrolambda": out_stream: "Output directory: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/retro/output"
+
+12:36:33.472 INFO run(): module "run retrolambda": out_stream: "Classpath:        /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/retro/input:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios.jar:/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/rx/build/libs/rx.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.15/f0ab8b7c8010cad33b8debda5d09d233571dc486/rxjava-1.0.15.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.0-beta-1038/99d226f809024f8a092a08fefaabe3a1cda8612a/kotlin-stdlib-1.0.0-beta-1038.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.0-beta-1038/d58a601675d08c8a5874c2cc646cfa06be648c37/kotlin-runtime-1.0.0-beta-1038.jar:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.jar:/Users/tudor/.gradle/caches/modules-2/files-2.1/io.reactivex/rxkotlin/0.24.100/b4256b8d748e0a4d429cc5a4528c5ec9ffca50c8/rxkotlin-0.24.100.jar"
+
+12:36:33.702 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/tudorluca/sample/ui/AppViewController.viewDidLoad"
+
+12:36:33.712 INFO run(): module "run retrolambda": out_stream: "Saving lambda class: com/tudorluca/sample/ui/AppViewController$$Lambda$1"
+
+12:36:33.716 INFO run(): module "run retrolambda": out_stream: "Saving lambda class: com/tudorluca/sample/ui/AppViewController$$Lambda$3"
+
+12:36:33.718 INFO run(): module "run retrolambda": out_stream: "Saving lambda class: com/tudorluca/sample/ui/AppViewController$$Lambda$4"
+
+12:36:33.720 INFO run(): module "run retrolambda": out_stream: "Saving lambda class: com/tudorluca/sample/ui/AppViewController$$Lambda$5"
+
+12:36:33.721 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/tudorluca/sample/ui/AppViewController"
+
+12:36:33.751 INFO run(): module "run retrolambda": out_stream: "Saving lambda class: ro/tudorluca/rx/ios/moe/schedulers/NSOperationQueueScheduledAction$$Lambda$1"
+
+12:36:33.764 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/tudorluca/sample/Main.applicationDidFinishLaunchingWithOptions"
+
+12:36:33.765 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/tudorluca/sample/Main.setWindow"
+
+12:36:33.765 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/tudorluca/sample/Main.window"
+
+12:36:33.765 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/tudorluca/sample/Main"
+
+12:36:33.842 INFO createBuildDirectories(): Build directory: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build

@@ -1,0 +1,58 @@
+
+12:33:26.899 INFO ParseArchs(): Active architecture: i386
+
+12:33:26.899 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildArtOatAlgorithm
+
+12:33:26.899 INFO start(): Running command line: "[java -cp /Applications/Intel/INDE/multi_os_engine/tools/uiTransformer.jar org.intel.transformer.OSXUITransformer --ixml-res-path=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources --out-format=storyboard --out-filename=MainUI --out-path=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources/ --uitransformer-res-path=/Applications/Intel/INDE/multi_os_engine/tools/UITransformer-res]"
+
+12:33:26.998 INFO run(): module "runUITransformer": out_stream: "OSXUITransformer exec"
+
+12:33:27.000 INFO run(): module "runUITransformer": out_stream: "ixml_res_path: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources/layout"
+
+12:33:27.000 INFO run(): module "runUITransformer": out_stream: "out_path: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources/"
+
+12:33:27.000 INFO run(): module "runUITransformer": out_stream: "out_filename: MainUI"
+
+12:33:27.000 INFO run(): module "runUITransformer": out_stream: "xslt_template: StoryboardTemplate.xsl"
+
+12:33:27.600 INFO run(): module "runUITransformer": out_stream: "Done"
+
+12:33:31.702 INFO start(): Running command line: "[ibtool /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources//MainUI.storyboard --write /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/src/main/resources//MainUI.storyboard --update-frames --errors --warnings --notices]"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "<?xml version="1.0" encoding="UTF-8"?>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "<plist version="1.0">"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "<dict>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.errors</key>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.notices</key>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.warnings</key>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "</dict>"
+
+12:33:32.692 INFO run(): module "call_ibtool": out_stream: "</plist>"
+
+12:33:32.699 INFO start(): Running command line: "[/Applications/Intel/INDE/multi_os_engine/tools/dex2oat --instruction-set=x86 --base=40000000 --compiler-backend=Quick --image=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/art/i386/image.art --image-classes=/Applications/Intel/INDE/multi_os_engine/tools/preloaded-classes --oat-file=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/art/i386/application.oat --dex-file=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/dex/xrtApplication.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.dex]"
+
+12:33:32.709 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I 78422 7336298 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/dex2oat/dex2oat.cc:1937] /Applications/Intel/INDE/multi_os_engine/tools/dex2oat --instruction-set=x86 --base=40000000 --compiler-backend=Quick --image=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/art/i386/image.art --image-classes=/Applications/Intel/INDE/multi_os_engine/tools/preloaded-classes --oat-file=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/art/i386/application.oat --dex-file=/Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/dex/xrtApplication.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.dex"
+
+12:33:32.709 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I 78422 7336298 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/runtime/parsed_options.cc:427] setting boot class path to /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build/dex/xrtApplication.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/INDE/multi_os_engine/sdk/intel-moe-core.dex"
+
+12:33:33.663 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I 78422 7336298 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/runtime/gc/heap.cc:2447] Explicit concurrent mark sweep GC freed 32983(5MB) AllocSpace objects, 0(0B) LOS objects, 23% free, 13MB/17MB, paused 27us total 24.896ms"
+
+12:33:34.963 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I 78422 7336298 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/runtime/gc/heap.cc:2447] Explicit concurrent mark sweep GC freed 131707(10MB) AllocSpace objects, 0(0B) LOS objects, 52% free, 3MB/7MB, paused 14us total 9.701ms"
+
+12:33:35.102 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I 78422 7336298 /teamcity/workdir/moe_repo_build_exp/moe_repo/art/dex2oat/dex2oat.cc:1743] dex2oat took 2.394s (threads: 8) arena alloc=420KB java alloc=3MB"
+
+12:33:35.231 INFO createBuildDirectories(): Build directory: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build

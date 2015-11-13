@@ -1,0 +1,2 @@
+com/tudorluca/sample/Main
+com/tudorluca/sample/ui/AppViewController

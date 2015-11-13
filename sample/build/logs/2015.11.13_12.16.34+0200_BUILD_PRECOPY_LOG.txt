@@ -1,0 +1,6 @@
+
+12:16:34.608 INFO ParseArchs(): Active architecture: i386
+
+12:16:34.609 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildPrecopyAlgorithm
+
+12:30:56.906 INFO createBuildDirectories(): Build directory: /Users/tudor/0.DevCenter/Android/Projects/sandbox/RxiOSMOE/sample/build
